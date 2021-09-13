@@ -1,0 +1,57 @@
+.main-title{
+    font-family: Garamond;  
+    font-size: 45;
+    color: white;
+}
+
+.tagline{
+    font-family: Garamond;
+    line-height: 40px;
+    font-size: 16.75;
+    color: white;
+}
+.bg_image{
+  background-image: url(/try\ 1/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+body{
+    background-color: #fffdf6;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#NavBar{
+    margin-top: 5px;
+
+}
+
+#ProductTitle{
+    color: #3c2323;
+    margin-top: 30px;
+}
+
+.MainFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+@media only screen and (max-width: 600px) {
+  .MainFlex {
+    flex-direction: column;
+  }
+}
+
+#togglebutton{
+  color: white;
+  background-color: black;
+}
+
+#spantoggle{
+  color: white;
+}
